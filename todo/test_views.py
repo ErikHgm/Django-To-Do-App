@@ -3,7 +3,7 @@ from .models import Item
 
 # Create your tests here.
 
-class TestDjango(TestCase):
+class TestViews(TestCase):
 
     def test_get_todo_list(self):
         response = self.client.get('/')
